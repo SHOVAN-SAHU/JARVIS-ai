@@ -1,0 +1,276 @@
+2026-04-30 14:59:39,143 [INFO] __main__ — Starting JARVIS...
+2026-04-30 14:59:46,533 [INFO] core.assistant — ⚡  Initializing JARVIS systems...
+2026-04-30 15:02:03,523 [INFO] __main__ — Starting JARVIS...
+2026-04-30 15:03:48,171 [INFO] __main__ — Starting JARVIS...
+2026-04-30 15:03:51,936 [INFO] core.assistant — ⚡  Initializing JARVIS systems...
+2026-04-30 15:03:54,067 [INFO] core.agent — 🧠  Agent ready | Model: llama-3.3-70b-versatile | Tools: ['get_current_datetime', 'web_search', 'get_system_info']
+2026-04-30 15:03:54,068 [INFO] core.assistant — ✅  All systems initialized.
+2026-04-30 15:03:54,068 [INFO] core.assistant — 🚀  JARVIS is running. Press Ctrl+C to stop.
+2026-04-30 15:03:54,068 [INFO] core.tts — 🔊  Speaking: "JARVIS systems online. All modules initialized. Say 'Hey JARVIS' whenever you ne..."
+2026-04-30 15:03:55,557 [ERROR] core.tts — TTS error: 403, message='Invalid response status', url=URL('wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=d08cdddb6ed04ab0ad00340d1f1dab67')
+2026-04-30 15:04:13,632 [INFO] core.stt — 🗣️  Heard: "Thank you."
+2026-04-30 15:04:22,886 [INFO] core.stt — 🗣️  Heard: "Hey Jarvis"
+2026-04-30 15:04:22,887 [INFO] core.assistant — 🔄  State: IDLE → ACTIVE
+2026-04-30 15:04:22,887 [INFO] core.agent — 🧹  Conversation memory cleared.
+2026-04-30 15:04:22,887 [INFO] core.assistant — 🟢  JARVIS ACTIVE — "Good to hear from you. What can I do for you?"
+2026-04-30 15:04:22,887 [INFO] core.tts — 🔊  Speaking: "Good to hear from you. What can I do for you?"
+2026-04-30 15:04:24,322 [ERROR] core.tts — TTS error: 403, message='Invalid response status', url=URL('wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=7ba5d438092d41aab6ed0c672e53d1ad')
+2026-04-30 15:04:40,652 [INFO] core.stt — 🗣️  Heard: "Hey Jarvis"
+2026-04-30 15:04:40,652 [INFO] core.tts — 🔊  Speaking: "I'm listening..."
+2026-04-30 15:04:42,125 [ERROR] core.tts — TTS error: 403, message='Invalid response status', url=URL('wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=32afef18249745ee92c7ba37156a4937')
+2026-04-30 15:05:01,581 [INFO] core.stt — 🗣️  Heard: "Thank you."
+2026-04-30 15:05:01,581 [INFO] core.assistant — 📨  Processing query: "Thank you."
+2026-04-30 15:05:01,581 [INFO] core.agent — 🤔  Thinking about: "Thank you."
+2026-04-30 15:05:03,951 [INFO] core.agent — 💬  Response: "You're welcome, is there anything else I can help you with?"
+2026-04-30 15:05:03,951 [INFO] core.tts — 🔊  Speaking: "You're welcome, is there anything else I can help you with?"
+2026-04-30 15:05:05,825 [ERROR] core.tts — TTS error: 403, message='Invalid response status', url=URL('wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=f6e94ca5d28443d5b517d92412cdd064')
+2026-04-30 15:05:25,643 [INFO] core.stt — 🗣️  Heard: "Thank you."
+2026-04-30 15:05:25,644 [INFO] core.assistant — 📨  Processing query: "Thank you."
+2026-04-30 15:05:25,644 [INFO] core.agent — 🤔  Thinking about: "Thank you."
+2026-04-30 15:05:28,054 [INFO] core.agent — 💬  Response: "Is there anything else I can help you with, or would you like to just chat for a bit?"
+2026-04-30 15:05:28,054 [INFO] core.tts — 🔊  Speaking: "Is there anything else I can help you with, or would you like to just chat for a..."
+2026-04-30 15:05:29,463 [ERROR] core.tts — TTS error: 403, message='Invalid response status', url=URL('wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=c8c77b126af54c1ca6e58a097e659a70')
+2026-04-30 15:05:37,933 [INFO] core.stt — 🗣️  Heard: "Sleep."
+2026-04-30 15:05:37,935 [INFO] core.assistant — 🔄  State: ACTIVE → IDLE
+2026-04-30 15:05:37,935 [INFO] core.assistant — 🌙  JARVIS IDLE — "Standby activated. Rest well, sir."
+2026-04-30 15:05:37,935 [INFO] core.tts — 🔊  Speaking: "Standby activated. Rest well, sir."
+2026-04-30 15:05:39,675 [ERROR] core.tts — TTS error: 403, message='Invalid response status', url=URL('wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=5dd927e895824bd09298ca1d99e42d0a')
+2026-04-30 15:05:58,160 [INFO] core.stt — 🗣️  Heard: "I"
+2026-04-30 15:06:23,573 [INFO] core.stt — 🗣️  Heard: "Thank you."
+2026-04-30 15:06:46,553 [INFO] core.stt — 🗣️  Heard: "�"
+2026-04-30 15:07:06,100 [INFO] core.stt — 🗣️  Heard: "In the context of the5s,500, the group referred to girl."
+2026-04-30 15:07:16,860 [INFO] core.stt — 🗣️  Heard: "How are you doing?"
+2026-04-30 15:07:36,312 [INFO] core.stt — 🗣️  Heard: "wake up"
+2026-04-30 15:07:36,312 [INFO] core.assistant — 🔄  State: IDLE → ACTIVE
+2026-04-30 15:07:36,313 [INFO] core.agent — 🧹  Conversation memory cleared.
+2026-04-30 15:07:36,313 [INFO] core.assistant — 🟢  JARVIS ACTIVE — "Online and ready, sir."
+2026-04-30 15:07:36,313 [INFO] core.tts — 🔊  Speaking: "Online and ready, sir."
+2026-04-30 15:07:37,753 [ERROR] core.tts — TTS error: 403, message='Invalid response status', url=URL('wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=a34bb6ea04c745e1b712c791702d11c9')
+2026-04-30 15:07:45,016 [INFO] core.stt — 🗣️  Heard: "How are you doing?"
+2026-04-30 15:07:45,018 [INFO] core.assistant — 📨  Processing query: "How are you doing?"
+2026-04-30 15:07:45,018 [INFO] core.agent — 🤔  Thinking about: "How are you doing?"
+2026-04-30 15:07:47,575 [INFO] core.agent — 💬  Response: "I'm doing well, systems are running smoothly with minimal CPU usage and ample disk space, but the battery is at 58% so w..."
+2026-04-30 15:07:47,575 [INFO] core.tts — 🔊  Speaking: "I'm doing well, systems are running smoothly with minimal CPU usage and ample di..."
+2026-04-30 15:07:49,152 [ERROR] core.tts — TTS error: 403, message='Invalid response status', url=URL('wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=4a8d5d9920be45a4a63c86dc2810fa2d')
+2026-04-30 15:08:03,342 [INFO] core.stt — 🗣️  Heard: "What is the memory?"
+2026-04-30 15:08:03,342 [INFO] core.assistant — 📨  Processing query: "What is the memory?"
+2026-04-30 15:08:03,342 [INFO] core.agent — 🤔  Thinking about: "What is the memory?"
+2026-04-30 15:08:03,342 [INFO] core.tts — 🔊  Speaking: "Checking your system status now."
+2026-04-30 15:08:05,084 [ERROR] core.tts — TTS error: 403, message='Invalid response status', url=URL('wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=2a5bf146702c4cf6a0329668114dc10f')
+2026-04-30 15:08:06,849 [INFO] core.agent — 💬  Response: "You've got 9.7 gigs of RAM used out of 15.4, so about 63% of your memory is in use."
+2026-04-30 15:08:06,849 [INFO] core.tts — 🔊  Speaking: "You've got 9.7 gigs of RAM used out of 15.4, so about 63% of your memory is in u..."
+2026-04-30 15:08:08,361 [ERROR] core.tts — TTS error: 403, message='Invalid response status', url=URL('wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=b7a173a970974acb89f83e92c666272e')
+2026-04-30 15:08:27,226 [INFO] core.stt — 🗣️  Heard: "All right, sleep."
+2026-04-30 15:08:27,227 [INFO] core.assistant — 🔄  State: ACTIVE → IDLE
+2026-04-30 15:08:27,227 [INFO] core.assistant — 🌙  JARVIS IDLE — "Standby activated. Rest well, sir."
+2026-04-30 15:08:27,227 [INFO] core.tts — 🔊  Speaking: "Standby activated. Rest well, sir."
+2026-04-30 15:08:28,871 [ERROR] core.tts — TTS error: 403, message='Invalid response status', url=URL('wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=866cadf5fe27432fbc50d7d9de89ddbf')
+2026-04-30 15:08:47,888 [INFO] core.stt — 🗣️  Heard: "."
+2026-04-30 15:08:54,205 [INFO] core.assistant — 🔄  State: IDLE → SHUTTING_DOWN
+2026-04-30 15:08:54,205 [INFO] core.assistant — 🛑  Shutting down JARVIS...
+2026-04-30 15:08:54,205 [INFO] core.tts — 🔊  Speaking: "JARVIS shutting down. Goodbye, sir."
+2026-04-30 15:08:55,596 [ERROR] core.tts — TTS error: 403, message='Invalid response status', url=URL('wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=09b047b13a6c42789a164aa97e293adc')
+2026-04-30 15:15:40,208 [INFO] __main__ — Starting JARVIS...
+2026-04-30 15:15:43,607 [INFO] core.assistant — ⚡  Initializing JARVIS systems...
+2026-04-30 15:15:43,672 [INFO] comtypes.client._code_cache — Could not import comtypes.gen, trying to create it.
+2026-04-30 15:15:43,673 [INFO] comtypes.client._code_cache — Created comtypes.gen directory: 'C:\Users\Shovan\Desktop\Projects\jarvis\venv\Lib\site-packages\comtypes\gen'
+2026-04-30 15:15:43,673 [INFO] comtypes.client._code_cache — Writing __init__.py file: 'C:\Users\Shovan\Desktop\Projects\jarvis\venv\Lib\site-packages\comtypes\gen\__init__.py'
+2026-04-30 15:15:43,685 [INFO] comtypes.client._code_cache — Using writeable comtypes cache directory: 'C:\Users\Shovan\Desktop\Projects\jarvis\venv\Lib\site-packages\comtypes\gen'
+2026-04-30 15:15:43,709 [INFO] comtypes.client._generate — Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+2026-04-30 15:15:43,714 [INFO] comtypes.client._generate — # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2026-04-30 15:15:43,795 [INFO] comtypes.client._generate — # Generating comtypes.gen.SpeechLib
+2026-04-30 15:15:43,802 [INFO] comtypes.client._generate — Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+2026-04-30 15:15:43,803 [INFO] comtypes.client._generate — # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+2026-04-30 15:15:43,812 [INFO] comtypes.client._generate — # Generating comtypes.gen.stdole
+2026-04-30 15:15:44,323 [INFO] core.tts — TTS engine ready | Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0
+2026-04-30 15:15:46,455 [INFO] core.agent — 🧠  Agent ready | Model: llama-3.3-70b-versatile | Tools: ['get_current_datetime', 'web_search', 'get_system_info']
+2026-04-30 15:15:46,456 [INFO] core.assistant — ✅  All systems initialized.
+2026-04-30 15:15:46,456 [INFO] core.assistant — 🚀  JARVIS is running. Press Ctrl+C to stop.
+2026-04-30 15:15:46,456 [INFO] core.tts — Speaking: "JARVIS systems online. All modules initialized. Say 'Hey JARVIS' whenever you ne..."
+2026-04-30 15:16:09,659 [INFO] core.stt — 🗣️  Heard: "Hey Jarvis."
+2026-04-30 15:16:09,660 [INFO] core.assistant — 🔄  State: IDLE → ACTIVE
+2026-04-30 15:16:09,660 [INFO] core.agent — 🧹  Conversation memory cleared.
+2026-04-30 15:16:09,660 [INFO] core.assistant — 🟢  JARVIS ACTIVE — "Yes, I'm here. What do you need?"
+2026-04-30 15:16:09,660 [INFO] core.tts — Speaking: "Yes, I'm here. What do you need?"
+2026-04-30 15:16:17,337 [INFO] core.stt — 🗣️  Heard: "Good to tell me the memory use"
+2026-04-30 15:16:17,338 [INFO] core.assistant — 📨  Processing query: "Good to tell me the memory use"
+2026-04-30 15:16:17,338 [INFO] core.agent — 🤔  Thinking about: "Good to tell me the memory use"
+2026-04-30 15:16:17,339 [INFO] core.tts — Speaking: "Checking your system status now."
+2026-04-30 15:16:20,915 [INFO] core.agent — ✅  Success on attempt 1 | Response: "You're currently using 10 gigabytes of RAM, which is about 65% of the total 15.4 gigabytes available..."
+2026-04-30 15:16:20,915 [INFO] core.tts — Speaking: "You're currently using 10 gigabytes of RAM, which is about 65% of the total 15.4..."
+2026-04-30 15:16:35,564 [INFO] core.stt — 🗣️  Heard: "Just a Google search and could you tell me what"
+2026-04-30 15:16:35,565 [INFO] core.assistant — 📨  Processing query: "Just a Google search and could you tell me what"
+2026-04-30 15:16:35,565 [INFO] core.agent — 🤔  Thinking about: "Just a Google search and could you tell me what"
+2026-04-30 15:16:35,566 [INFO] core.tts — Speaking: "Alright, searching the web for that."
+2026-04-30 15:16:39,242 [INFO] tools.websearch_tool — 🔍  Web search: ''
+2026-04-30 15:16:39,242 [WARNING] primp.impersonate — Impersonate 'safari_ios_17.4.1' does not exist, using 'random'
+2026-04-30 15:16:39,252 [ERROR] tools.websearch_tool — Web search error: keywords is mandatory
+2026-04-30 15:16:42,124 [INFO] core.agent — ✅  Success on attempt 1 | Response: "You're currently using 9.7 gigabytes of RAM, which is about 63% of the total 15.4 gigabytes availabl..."
+2026-04-30 15:16:42,124 [INFO] core.tts — Speaking: "You're currently using 9.7 gigabytes of RAM, which is about 63% of the total 15...."
+2026-04-30 15:17:05,661 [INFO] core.stt — 🗣️  Heard: "could you tell me the current currency of INR when exchanging from USD"
+2026-04-30 15:17:05,661 [INFO] core.assistant — 📨  Processing query: "could you tell me the current currency of INR when exchanging from USD"
+2026-04-30 15:17:05,662 [INFO] core.agent — 🤔  Thinking about: "could you tell me the current currency of INR when exchanging from USD"
+2026-04-30 15:17:06,481 [INFO] tools.websearch_tool — 🔍  Web search: 'current exchange rate USD to INR'
+2026-04-30 15:17:07,098 [INFO] primp — response: https://duckduckgo.com/ 200
+2026-04-30 15:17:07,577 [INFO] primp — response: https://links.duckduckgo.com/d.js?q=current+exchange+rate+USD+to+INR&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-209440196954145523098820484876144026342&bing_market=wt-WT&ex=-1 202
+2026-04-30 15:17:07,578 [ERROR] tools.websearch_tool — Web search error: https://links.duckduckgo.com/d.js?q=current+exchange+rate+USD+to+INR&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-209440196954145523098820484876144026342&bing_market=wt-WT&ex=-1 202 Ratelimit
+2026-04-30 15:17:08,095 [INFO] tools.websearch_tool — 🔍  Web search: 'USD to INR exchange rate today'
+2026-04-30 15:17:08,423 [INFO] primp — response: https://duckduckgo.com/ 200
+2026-04-30 15:17:09,000 [INFO] primp — response: https://links.duckduckgo.com/d.js?q=USD+to+INR+exchange+rate+today&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-81851098794243057134561227309187625065&bing_market=wt-WT&ex=-1 202
+2026-04-30 15:17:09,002 [ERROR] tools.websearch_tool — Web search error: https://links.duckduckgo.com/d.js?q=USD+to+INR+exchange+rate+today&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-81851098794243057134561227309187625065&bing_market=wt-WT&ex=-1 202 Ratelimit
+2026-04-30 15:17:09,757 [INFO] tools.websearch_tool — 🔍  Web search: 'USD to INR exchange rate'
+2026-04-30 15:17:10,038 [INFO] primp — response: https://duckduckgo.com/ 200
+2026-04-30 15:17:10,708 [INFO] primp — response: https://links.duckduckgo.com/d.js?q=USD+to+INR+exchange+rate&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-310300544519629597061109917572111188532&bing_market=wt-WT&ex=-1 202
+2026-04-30 15:17:10,709 [ERROR] tools.websearch_tool — Web search error: https://links.duckduckgo.com/d.js?q=USD+to+INR+exchange+rate&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-310300544519629597061109917572111188532&bing_market=wt-WT&ex=-1 202 Ratelimit
+2026-04-30 15:17:11,572 [INFO] tools.websearch_tool — 🔍  Web search: 'current USD to INR exchange rate api'
+2026-04-30 15:17:11,904 [INFO] primp — response: https://duckduckgo.com/ 200
+2026-04-30 15:17:12,370 [INFO] primp — response: https://links.duckduckgo.com/d.js?q=current+USD+to+INR+exchange+rate+api&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-65377438079481734928432321898912872977&bing_market=wt-WT&ex=-1 202
+2026-04-30 15:17:12,370 [ERROR] tools.websearch_tool — Web search error: https://links.duckduckgo.com/d.js?q=current+USD+to+INR+exchange+rate+api&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-65377438079481734928432321898912872977&bing_market=wt-WT&ex=-1 202 Ratelimit
+2026-04-30 15:17:13,352 [INFO] tools.websearch_tool — 🔍  Web search: 'USD to INR exchange rate'
+2026-04-30 15:17:13,601 [INFO] primp — response: https://duckduckgo.com/ 200
+2026-04-30 15:17:13,900 [INFO] primp — response: https://links.duckduckgo.com/d.js?q=USD+to+INR+exchange+rate&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-310300544519629597061109917572111188532&bing_market=wt-WT&ex=-1 202
+2026-04-30 15:17:13,901 [ERROR] tools.websearch_tool — Web search error: https://links.duckduckgo.com/d.js?q=USD+to+INR+exchange+rate&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-310300544519629597061109917572111188532&bing_market=wt-WT&ex=-1 202 Ratelimit
+2026-04-30 15:17:13,902 [INFO] core.agent — ✅  Success on attempt 1 | Response: "Agent stopped due to iteration limit or time limit...."
+2026-04-30 15:17:13,902 [INFO] core.tts — Speaking: "Agent stopped due to iteration limit or time limit."
+2026-04-30 15:17:33,857 [INFO] core.stt — 🗣️  Heard: "About haul, at the olv 찾아"
+2026-04-30 15:17:33,858 [INFO] core.assistant — 📨  Processing query: "About haul, at the olv 찾아"
+2026-04-30 15:17:33,858 [INFO] core.agent — 🤔  Thinking about: "About haul, at the olv 찾아"
+2026-04-30 15:17:35,462 [INFO] tools.websearch_tool — 🔍  Web search: 'haul olv'
+2026-04-30 15:17:35,798 [INFO] primp — response: https://duckduckgo.com/ 200
+2026-04-30 15:17:36,290 [INFO] primp — response: https://links.duckduckgo.com/d.js?q=haul+olv&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-87432674245861373453613296999331893806&bing_market=wt-WT&ex=-1 202
+2026-04-30 15:17:36,291 [ERROR] tools.websearch_tool — Web search error: https://links.duckduckgo.com/d.js?q=haul+olv&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-87432674245861373453613296999331893806&bing_market=wt-WT&ex=-1 202 Ratelimit
+2026-04-30 15:17:36,959 [INFO] core.agent — ✅  Success on attempt 1 | Response: "I'm not sure what you're looking for with "haul" and "olv", could you provide more context or clarif..."
+2026-04-30 15:17:36,960 [INFO] core.tts — Speaking: "I'm not sure what you're looking for with "haul" and "olv", could you provide mo..."
+2026-04-30 15:17:46,438 [INFO] core.stt — 🗣️  Heard: "Sleep."
+2026-04-30 15:17:46,438 [INFO] core.assistant — 🔄  State: ACTIVE → IDLE
+2026-04-30 15:17:46,439 [INFO] core.assistant — 🌙  JARVIS IDLE — "Going to standby mode. Call me anytime."
+2026-04-30 15:17:46,439 [INFO] core.tts — Speaking: "Going to standby mode. Call me anytime."
+2026-04-30 15:18:07,513 [INFO] core.stt — 🗣️  Heard: "Jarvis you there? Jarvis"
+2026-04-30 15:18:07,514 [INFO] core.assistant — 🔄  State: IDLE → ACTIVE
+2026-04-30 15:18:07,514 [INFO] core.agent — 🧹  Conversation memory cleared.
+2026-04-30 15:18:07,514 [INFO] core.assistant — 🟢  JARVIS ACTIVE — "JARVIS online. How can I help?"
+2026-04-30 15:18:07,515 [INFO] core.tts — Speaking: "JARVIS online. How can I help?"
+2026-04-30 15:18:10,566 [INFO] core.assistant — 📨  Processing query: "you there? Jarvis"
+2026-04-30 15:18:10,566 [INFO] core.agent — 🤔  Thinking about: "you there? Jarvis"
+2026-04-30 15:18:11,771 [INFO] core.agent — ✅  Success on attempt 1 | Response: "Yes, I'm here...."
+2026-04-30 15:18:11,771 [INFO] core.tts — Speaking: "Yes, I'm here."
+2026-04-30 15:18:31,166 [INFO] core.stt — 🗣️  Heard: "Go to sleep."
+2026-04-30 15:18:31,167 [INFO] core.assistant — 🔄  State: ACTIVE → IDLE
+2026-04-30 15:18:31,167 [INFO] core.assistant — 🌙  JARVIS IDLE — "Going to standby mode. Call me anytime."
+2026-04-30 15:18:31,167 [INFO] core.tts — Speaking: "Going to standby mode. Call me anytime."
+2026-04-30 15:18:40,959 [INFO] core.stt — 🗣️  Heard: "Jarvis wake up!"
+2026-04-30 15:18:40,959 [INFO] core.assistant — 🔄  State: IDLE → ACTIVE
+2026-04-30 15:18:40,959 [INFO] core.agent — 🧹  Conversation memory cleared.
+2026-04-30 15:18:40,961 [INFO] core.assistant — 🟢  JARVIS ACTIVE — "JARVIS online. How can I help?"
+2026-04-30 15:18:40,961 [INFO] core.tts — Speaking: "JARVIS online. How can I help?"
+2026-04-30 15:18:43,969 [INFO] core.assistant — 📨  Processing query: "wake up!"
+2026-04-30 15:18:43,969 [INFO] core.agent — 🤔  Thinking about: "wake up!"
+2026-04-30 15:18:45,222 [INFO] core.agent — ✅  Success on attempt 1 | Response: "Good afternoon, it's 3:18 PM, time to wake up...."
+2026-04-30 15:18:45,222 [INFO] core.tts — Speaking: "Good afternoon, it's 3:18 PM, time to wake up."
+2026-04-30 15:18:54,103 [INFO] core.stt — 🗣️  Heard: "What is the time?"
+2026-04-30 15:18:54,104 [INFO] core.assistant — 📨  Processing query: "What is the time?"
+2026-04-30 15:18:54,104 [INFO] core.agent — 🤔  Thinking about: "What is the time?"
+2026-04-30 15:18:54,104 [INFO] core.tts — Speaking: "Let me check that for you."
+2026-04-30 15:18:56,871 [INFO] core.agent — ✅  Success on attempt 1 | Response: "It's 3:18 PM...."
+2026-04-30 15:18:56,872 [INFO] core.tts — Speaking: "It's 3:18 PM."
+2026-04-30 15:19:03,935 [INFO] core.stt — 🗣️  Heard: "Is it Inland time?"
+2026-04-30 15:19:03,935 [INFO] core.assistant — 📨  Processing query: "Is it Inland time?"
+2026-04-30 15:19:03,936 [INFO] core.agent — 🤔  Thinking about: "Is it Inland time?"
+2026-04-30 15:19:03,936 [INFO] core.tts — Speaking: "Let me check that for you."
+2026-04-30 15:19:07,928 [INFO] tools.websearch_tool — 🔍  Web search: 'what time zone is inland time'
+2026-04-30 15:19:08,503 [INFO] primp — response: https://duckduckgo.com/ 202
+2026-04-30 15:19:08,505 [ERROR] tools.websearch_tool — Web search error: https://duckduckgo.com/ 202 Ratelimit
+2026-04-30 15:19:09,365 [INFO] tools.websearch_tool — 🔍  Web search: 'define inland time zone'
+2026-04-30 15:19:09,668 [INFO] primp — response: https://duckduckgo.com/ 200
+2026-04-30 15:19:10,154 [INFO] primp — response: https://links.duckduckgo.com/d.js?q=define+inland+time+zone&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-116279851549846729588753949929308466120&bing_market=wt-WT&ex=-1 202
+2026-04-30 15:19:10,155 [ERROR] tools.websearch_tool — Web search error: https://links.duckduckgo.com/d.js?q=define+inland+time+zone&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-116279851549846729588753949929308466120&bing_market=wt-WT&ex=-1 202 Ratelimit
+2026-04-30 15:19:11,153 [INFO] tools.websearch_tool — 🔍  Web search: 'list of time zones in the United States'
+2026-04-30 15:19:11,474 [INFO] primp — response: https://duckduckgo.com/ 200
+2026-04-30 15:19:11,819 [INFO] primp — response: https://links.duckduckgo.com/d.js?q=list+of+time+zones+in+the+United+States&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-285271908408814537099498976915070651934&bing_market=wt-WT&ex=-1 202
+2026-04-30 15:19:11,819 [ERROR] tools.websearch_tool — Web search error: https://links.duckduckgo.com/d.js?q=list+of+time+zones+in+the+United+States&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-285271908408814537099498976915070651934&bing_market=wt-WT&ex=-1 202 Ratelimit
+2026-04-30 15:19:13,020 [INFO] tools.websearch_tool — 🔍  Web search: 'time zones in the United States'
+2026-04-30 15:19:13,327 [INFO] primp — response: https://duckduckgo.com/ 200
+2026-04-30 15:19:13,590 [INFO] primp — response: https://links.duckduckgo.com/d.js?q=time+zones+in+the+United+States&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-227225561152690022506280671198839509456&bing_market=wt-WT&ex=-1 202
+2026-04-30 15:19:13,660 [ERROR] tools.websearch_tool — Web search error: https://links.duckduckgo.com/d.js?q=time+zones+in+the+United+States&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-227225561152690022506280671198839509456&bing_market=wt-WT&ex=-1 202 Ratelimit
+2026-04-30 15:19:13,660 [INFO] core.agent — ✅  Success on attempt 1 | Response: "Agent stopped due to iteration limit or time limit...."
+2026-04-30 15:19:13,662 [INFO] core.tts — Speaking: "Agent stopped due to iteration limit or time limit."
+2026-04-30 15:19:24,720 [INFO] core.stt — 🗣️  Heard: "how are you doing and doing"
+2026-04-30 15:19:24,720 [INFO] core.assistant — 📨  Processing query: "how are you doing and doing"
+2026-04-30 15:19:24,721 [INFO] core.agent — 🤔  Thinking about: "how are you doing and doing"
+2026-04-30 15:19:29,330 [INFO] tools.websearch_tool — 🔍  Web search: 'current time zone'
+2026-04-30 15:19:29,585 [INFO] primp — response: https://duckduckgo.com/ 200
+2026-04-30 15:19:29,899 [INFO] primp — response: https://links.duckduckgo.com/d.js?q=current+time+zone&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-128501783403646732200348146968572655637&bing_market=wt-WT&ex=-1 202
+2026-04-30 15:19:29,969 [ERROR] tools.websearch_tool — Web search error: https://links.duckduckgo.com/d.js?q=current+time+zone&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-128501783403646732200348146968572655637&bing_market=wt-WT&ex=-1 202 Ratelimit
+2026-04-30 15:19:29,970 [INFO] core.agent — ✅  Success on attempt 1 | Response: "Agent stopped due to iteration limit or time limit...."
+2026-04-30 15:19:29,970 [INFO] core.tts — Speaking: "Agent stopped due to iteration limit or time limit."
+2026-04-30 15:19:36,557 [INFO] core.stt — 🗣️  Heard: "How are you doing Jarvis?"
+2026-04-30 15:19:36,558 [INFO] core.tts — Speaking: "Go ahead, sir."
+2026-04-30 15:19:44,586 [INFO] core.stt — 🗣️  Heard: "How are you doing today?"
+2026-04-30 15:19:44,587 [INFO] core.assistant — 📨  Processing query: "How are you doing today?"
+2026-04-30 15:19:44,588 [INFO] core.agent — 🤔  Thinking about: "How are you doing today?"
+2026-04-30 15:19:44,588 [INFO] core.tts — Speaking: "Let me check that for you."
+2026-04-30 15:19:49,706 [INFO] core.agent — ✅  Success on attempt 1 | Response: "Agent stopped due to iteration limit or time limit...."
+2026-04-30 15:19:49,706 [INFO] core.tts — Speaking: "Agent stopped due to iteration limit or time limit."
+2026-04-30 15:20:09,227 [INFO] core.stt — 🗣️  Heard: "Hey Jarvis, how are you doing?"
+2026-04-30 15:20:09,227 [INFO] core.tts — Speaking: "Go ahead, sir."
+2026-04-30 15:20:27,495 [INFO] core.stt — 🗣️  Heard: "Do you know my name? Do you know my name?"
+2026-04-30 15:20:27,507 [INFO] core.assistant — 📨  Processing query: "Do you know my name? Do you know my name?"
+2026-04-30 15:20:27,508 [INFO] core.agent — 🤔  Thinking about: "Do you know my name? Do you know my name?"
+2026-04-30 15:20:30,498 [INFO] core.agent — ✅  Success on attempt 1 | Response: "Agent stopped due to iteration limit or time limit...."
+2026-04-30 15:20:30,499 [INFO] core.tts — Speaking: "Agent stopped due to iteration limit or time limit."
+2026-04-30 15:20:48,280 [INFO] core.stt — 🗣️  Heard: "Sleep. Sleep."
+2026-04-30 15:20:48,280 [INFO] core.assistant — 🔄  State: ACTIVE → IDLE
+2026-04-30 15:20:48,281 [INFO] core.assistant — 🌙  JARVIS IDLE — "Going to standby mode. Call me anytime."
+2026-04-30 15:20:48,281 [INFO] core.tts — Speaking: "Going to standby mode. Call me anytime."
+2026-04-30 15:21:08,044 [INFO] core.stt — 🗣️  Heard: "Wake up."
+2026-04-30 15:21:08,045 [INFO] core.assistant — 🔄  State: IDLE → ACTIVE
+2026-04-30 15:21:08,045 [INFO] core.agent — 🧹  Conversation memory cleared.
+2026-04-30 15:21:08,045 [INFO] core.assistant — 🟢  JARVIS ACTIVE — "Yes, I'm here. What do you need?"
+2026-04-30 15:21:08,046 [INFO] core.tts — Speaking: "Yes, I'm here. What do you need?"
+2026-04-30 15:21:15,724 [INFO] core.stt — 🗣️  Heard: "What is your name?"
+2026-04-30 15:21:15,724 [INFO] core.assistant — 📨  Processing query: "What is your name?"
+2026-04-30 15:21:15,725 [INFO] core.agent — 🤔  Thinking about: "What is your name?"
+2026-04-30 15:21:19,003 [INFO] core.agent — ✅  Success on attempt 1 | Response: "Agent stopped due to iteration limit or time limit...."
+2026-04-30 15:21:19,004 [INFO] core.tts — Speaking: "Agent stopped due to iteration limit or time limit."
+2026-04-30 15:21:39,996 [INFO] core.stt — 🗣️  Heard: "Go to sleep."
+2026-04-30 15:21:39,997 [INFO] core.assistant — 🔄  State: ACTIVE → IDLE
+2026-04-30 15:21:39,997 [INFO] core.assistant — 🌙  JARVIS IDLE — "Entering idle mode. Just say my name to wake me."
+2026-04-30 15:21:39,998 [INFO] core.tts — Speaking: "Entering idle mode. Just say my name to wake me."
+2026-04-30 15:22:00,372 [INFO] core.stt — 🗣️  Heard: "Jessica, pretty much?"
+2026-04-30 15:22:17,882 [INFO] core.stt — 🗣️  Heard: "Nice! And I made it. But, Egypt lost a przㄧ"
+2026-04-30 15:22:34,880 [INFO] core.stt — 🗣️  Heard: "It creates recognition of the usual and word itself makes words better than Must Nós but Continued we will continue to go and continue with love"
+2026-04-30 15:22:51,981 [INFO] core.stt — 🗣️  Heard: "This day sometimes a crisis. We have a moral disagreement drug Releaselocrão experiences. You are affected by the news, but I don't think it's always a motion man. I don't know why those small organizations are in a situation."
+2026-04-30 15:23:08,983 [INFO] core.stt — 🗣️  Heard: "These areнесengs. These areOST you. The name of this is club club. Those are fucking kids. We will"
+2026-04-30 15:23:25,466 [INFO] core.stt — 🗣️  Heard: "back"
+2026-04-30 15:23:41,952 [INFO] core.stt — 🗣️  Heard: "Thank you."
+2026-04-30 15:23:59,055 [INFO] core.stt — 🗣️  Heard: "There after a pare of páIRberg, he found an awful lot of dumb��mpath. I don't really care. I mean, mine's looking on much sudden swamp right now when you're going wrong... but we only cannot answer it especially with your boy Herndon's thats has been a memorial in닝ery. Almost, babe, don't create much radius though. Ooh, so okay. Anyway, happened."
+2026-04-30 15:24:16,668 [INFO] core.stt — 🗣️  Heard: "myślę, просто Aww? more women maybe Alrighty, you can push the forces and make what time"
+2026-04-30 15:24:33,369 [INFO] core.stt — 🗣️  Heard: "... ... ..."
+2026-04-30 15:24:50,078 [INFO] core.stt — 🗣️  Heard: "Oh, be careful that I know, it's all that. My revenge is the problem, Shah so good."
+2026-04-30 15:25:07,048 [INFO] core.stt — 🗣️  Heard: "It makes me beasts bigger and hit buttons. It links to the cameras from different places. The faces are actually down that there to be a bigger puzzle from different references and a gently Dit Ah Ah."
+2026-04-30 15:25:23,658 [INFO] core.stt — 🗣️  Heard: "Thank you."
+2026-04-30 15:25:40,024 [INFO] core.stt — 🗣️  Heard: "."
+2026-04-30 15:25:56,743 [INFO] core.stt — 🗣️  Heard: "She said, Ized trong of A-Sy of Sahaja Someone was the same."
+2026-04-30 15:26:13,743 [INFO] core.stt — 🗣️  Heard: "up boards"
+2026-04-30 15:26:30,655 [INFO] core.stt — 🗣️  Heard: "In keep writing what happens? Jane?"
+2026-04-30 15:26:48,117 [INFO] core.stt — 🗣️  Heard: "Do you know what it is now?"
+2026-04-30 15:27:05,629 [INFO] core.stt — 🗣️  Heard: "igns is a physics Silver"
+2026-04-30 15:27:22,423 [INFO] core.stt — 🗣️  Heard: "Thank you."
+2026-04-30 15:27:39,318 [INFO] core.stt — 🗣️  Heard: "."
+2026-04-30 15:27:56,419 [INFO] core.stt — 🗣️  Heard: "Thank you."
+2026-04-30 15:28:14,032 [INFO] core.stt — 🗣️  Heard: "that, right."
+2026-04-30 15:28:31,215 [INFO] core.stt — 🗣️  Heard: "I showed you guys at the beginning of the shadows in an hour I drop a risk, lots of loneliness, and Hippie. My 2016 presentation has been very impressive. Many are now speaking of боic."
+2026-04-30 15:28:48,236 [INFO] core.stt — 🗣️  Heard: "Thank you."
+2026-04-30 15:29:05,909 [INFO] core.stt — 🗣️  Heard: "I don't know."
+2026-04-30 15:29:22,644 [INFO] core.stt — 🗣️  Heard: "Hello"
+2026-04-30 15:29:39,341 [INFO] core.stt — 🗣️  Heard: "wag that are too good. up dogs are you good? Blue got a bit ofㅎ Three advantages"
+2026-04-30 15:29:57,012 [INFO] core.stt — 🗣️  Heard: "What this 채�데 is theändert company from Roman"
+2026-04-30 15:30:14,787 [INFO] core.stt — 🗣️  Heard: "I'm barely opportunity to forget all ones who chapter two at night. I wanna go and know what a shot of the mind clearly. I'm here to go see sticks here we have Batman so. I just lost the arrow inบphal Social strike. Link it's just like penguinsarnt!희nton Link reste ting."
+2026-04-30 15:30:31,883 [INFO] core.stt — 🗣️  Heard: "ICY IT vez 뜨거ye E信"
+2026-04-30 15:30:49,069 [INFO] core.stt — 🗣️  Heard: "And try to have the혁 wrong Notre Dame. And where we reach our Yasirрод positively. Luckily, there has been worries about it far. Aren't it volunteers? What is that nature roadmap?"
+2026-04-30 15:31:06,887 [INFO] core.stt — 🗣️  Heard: "Hello, everyone."
+2026-04-30 15:31:24,090 [INFO] core.stt — 🗣️  Heard: "Thank you."
+2026-04-30 15:31:41,111 [INFO] core.stt — 🗣️  Heard: "Thank you."
+2026-04-30 15:31:48,739 [INFO] core.assistant — 🔄  State: IDLE → SHUTTING_DOWN
+2026-04-30 15:31:48,739 [INFO] core.assistant — 🛑  Shutting down JARVIS...
+2026-04-30 15:31:48,740 [INFO] core.tts — Speaking: "JARVIS shutting down. Goodbye, sir."
