@@ -10,6 +10,7 @@ env/
 ENV/
 
 # Logs
+logs/
 *.log
 
 # Python caching
