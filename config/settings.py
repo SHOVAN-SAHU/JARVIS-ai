@@ -23,8 +23,13 @@ def _get(key: str, default=None, required=False):
 
 # ── Groq ─────────────────────────────────────────────────────
 GROQ_API_KEY: str = _get("GROQ_API_KEY", required=True)
-GROQ_LLM_MODEL: str = _get("GROQ_LLM_MODEL", "llama-3.3-70b-versatile")
+GROQ_LLM_MODEL: str = _get("GROQ_LLM_MODEL", "llama-3.1-8b-instant")
 GROQ_WHISPER_MODEL: str = _get("GROQ_WHISPER_MODEL", "whisper-large-v3-turbo")
+
+# ── Tavily ─────────────────────────────────────────────────────
+TAVILY_API_KEY_1: str = _get("TAVILY_API_KEY_1", "")
+TAVILY_API_KEY_2: str = _get("TAVILY_API_KEY_2", "")
+TAVILY_API_KEY_3: str = _get("TAVILY_API_KEY_3", "")
 
 # ── TTS ──────────────────────────────────────────────────────
 TTS_VOICE: str = _get("TTS_VOICE", "en-US-GuyNeural")

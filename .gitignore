@@ -9,6 +9,9 @@ venv/
 env/
 ENV/
 
+# Logs
+*.log
+
 # Python caching
 __pycache__/
 *.py[cod]

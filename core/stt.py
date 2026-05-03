@@ -176,12 +176,12 @@ class SpeechToText:
         Record until silence using a rolling pre-roll buffer.
         Returns numpy audio array or None if nothing was captured.
         """
-        pre_roll     = deque(maxlen=PRE_ROLL_CHUNKS)   # ring buffer before speech
+        pre_roll = deque(maxlen=PRE_ROLL_CHUNKS)   # ring buffer before speech
         speech_chunks = []
-        speaking      = False
-        silent_time   = 0.0
-        total_time    = 0.0
-        speech_time   = 0.0
+        speaking = False
+        silent_time = 0.0
+        total_time = 0.0
+        speech_time = 0.0
 
         with sd.InputStream(
             samplerate=self.sample_rate,

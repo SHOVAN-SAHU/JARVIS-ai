@@ -6,6 +6,7 @@ Adding a new tool = create the file + add it to this list. That's it.
 from .datetime_tool import DateTimeTool
 from .websearch_tool import WebSearchTool
 from .system_tool import SystemInfoTool
+from .whatsapp_template import WhatsAppTool
 
 
 def get_all_tools() -> list:
@@ -16,6 +17,6 @@ def get_all_tools() -> list:
         SystemInfoTool(),
         # ── Add new tools here ──────────────────────────────────────
         # from .whatsapp_tool import WhatsAppTool
-        # WhatsAppTool(),
+        WhatsAppTool(),
         # ───────────────────────────────────────────────────────────
     ]
