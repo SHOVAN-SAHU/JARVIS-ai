@@ -6,17 +6,14 @@ Adding a new tool = create the file + add it to this list. That's it.
 from .datetime_tool import DateTimeTool
 from .websearch_tool import WebSearchTool
 from .system_tool import SystemInfoTool
-from .whatsapp_template import WhatsAppTool
 
+# Singleton — tools are instantiated once at import time
+_TOOLS = [
+    DateTimeTool(),
+    WebSearchTool(),
+    SystemInfoTool(),
+]
 
 def get_all_tools() -> list:
-    """Returns initialized instances of all available JARVIS tools."""
-    return [
-        DateTimeTool(),
-        WebSearchTool(),
-        SystemInfoTool(),
-        # ── Add new tools here ──────────────────────────────────────
-        # from .whatsapp_tool import WhatsAppTool
-        WhatsAppTool(),
-        # ───────────────────────────────────────────────────────────
-    ]
+    """Returns the shared tool instances."""
+    return _TOOLS

@@ -113,7 +113,7 @@ class WebSearchTool(BaseTool):
                 "or ask the user to try again in a few seconds."
             )
         
-        print(f"websearch results: {results}")
+        logger.debug(f"Web search results: {results}")
 
         formatted = []
         for i, r in enumerate(results, 1):

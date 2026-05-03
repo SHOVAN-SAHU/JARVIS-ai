@@ -54,7 +54,7 @@ SILENCE_DURATION: float = float(_get("SILENCE_DURATION", 1.5))
 MAX_RECORD_SECONDS: int = int(_get("MAX_RECORD_SECONDS", 15))
 
 # ── Agent ────────────────────────────────────────────────────
-AGENT_MAX_ITERATIONS: int = int(_get("AGENT_MAX_ITERATIONS", 5))
+AGENT_MAX_ITERATIONS: int = int(_get("AGENT_MAX_ITERATIONS", 2))
 AGENT_VERBOSE: bool = _get("AGENT_VERBOSE", "false").lower() == "true"
 
 # ── App ──────────────────────────────────────────────────────
