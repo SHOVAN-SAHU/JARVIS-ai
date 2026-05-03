@@ -22,8 +22,8 @@ from tools import get_all_tools
 
 logger = logging.getLogger(__name__)
 
-MAX_RETRIES    = 3
-BASE_BACKOFF   = 1.0
+MAX_RETRIES = 3
+BASE_BACKOFF = 1.0
 RATE_LIMIT_WAIT = 8.0
 
 RETRY_PHRASES = [
