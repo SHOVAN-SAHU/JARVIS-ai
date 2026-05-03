@@ -117,9 +117,9 @@ class WebSearchTool(BaseTool):
 
         formatted = []
         for i, r in enumerate(results, 1):
-            title   = r.get("title", "")
+            title = r.get("title", "")
             content = r.get("content", "")
-            url     = r.get("url", "")
+            url = r.get("url", "")
             formatted.append(f"{i}. {title}: {content}\n   Source: {url}")
 
         return "\n\n".join(formatted)

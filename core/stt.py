@@ -136,9 +136,9 @@ from config import settings
 logger = logging.getLogger(__name__)
 
 # Chunk duration in seconds — smaller = more responsive VAD
-CHUNK_DURATION   = 0.06    # 60ms chunks (was 100ms)
+CHUNK_DURATION = 0.06    # 60ms chunks (was 100ms)
 # How many chunks to keep before speech starts (pre-roll buffer)
-PRE_ROLL_CHUNKS  = 5       # 300ms of audio before trigger
+PRE_ROLL_CHUNKS = 5       # 300ms of audio before trigger
 # RMS silence threshold — audio below this is silence
 # (overridden by settings.SILENCE_THRESHOLD)
 DEFAULT_THRESHOLD = 0.025
@@ -146,17 +146,17 @@ DEFAULT_THRESHOLD = 0.025
 
 class SpeechToText:
     def __init__(self):
-        self.client        = Groq(api_key=settings.GROQ_API_KEY)
-        self.sample_rate   = settings.RECORD_SAMPLE_RATE
-        self.channels      = settings.RECORD_CHANNELS
-        self.threshold     = settings.SILENCE_THRESHOLD
-        self.max_seconds   = settings.MAX_RECORD_SECONDS
+        self.client = Groq(api_key=settings.GROQ_API_KEY)
+        self.sample_rate = settings.RECORD_SAMPLE_RATE
+        self.channels = settings.RECORD_CHANNELS
+        self.threshold = settings.SILENCE_THRESHOLD
+        self.max_seconds = settings.MAX_RECORD_SECONDS
 
         # Adaptive silence: shorter wait after longer speech
         self._base_silence = settings.SILENCE_DURATION   # e.g. 1.5s
-        self._min_silence  = 0.6                          # never less than 0.6s
+        self._min_silence = 0.6                          # never less than 0.6s
 
-        self._chunk_size   = int(self.sample_rate * CHUNK_DURATION)
+        self._chunk_size = int(self.sample_rate * CHUNK_DURATION)
 
     # ── Audio helpers ─────────────────────────────────────────────────────────
 
@@ -240,7 +240,7 @@ class SpeechToText:
         Record → transcribe via Groq Whisper.
         Returns text or None.
         """
-        t0    = time.perf_counter()
+        t0 = time.perf_counter()
         audio = self._record()
 
         if audio is None:
